@@ -21,6 +21,8 @@
         <ascii-table.version>1.1.0</ascii-table.version>
         <slf4j-api.version>1.7.29</slf4j-api.version>
         <slf4j-simple.version>1.7.29</slf4j-simple.version>
+        <tinypinyin.version>2.0.3.RELEASE</tinypinyin.version>
+        <guava.version>18.0</guava.version>
         <junit.version>4.11</junit.version>
     </properties>
 
@@ -54,6 +56,16 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j-simple.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.biezhi</groupId>
+            <artifactId>TinyPinyin</artifactId>
+            <version>${tinypinyin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
