@@ -34,7 +34,7 @@ public class FileHashHandler extends BaseFileHandler {
             return;
         }
         long begin = System.currentTimeMillis();
-        setIgnoreExts(Lists.newArrayList("exe", "bin", "iso", "jar", "dll", "so", "ocx", "a", "db", "dat", "key"));
+        setIgnoreExts(Lists.newArrayList("exe", "bin", "iso", "jar", "dll", "so", "ocx", "a", "db", "dat", "key", "idx", "pack", "svg"));
         //执行处理
         execute(listSrcPath(srcPath), f -> {
             try {
